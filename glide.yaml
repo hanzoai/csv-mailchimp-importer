@@ -1,0 +1,9 @@
+package: csv-mailchimp-importer
+ignore:
+- csv-mailchimp-importer
+import:
+- package: github.com/gocarina/gocsv
+  version: master
+- package: github.com/zeekay/gochimp3
+  version: master
+
